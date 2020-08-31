@@ -7,7 +7,10 @@
 | GE_8_3               | 30/08/20        | 0.8000                     | 0.7534               |
 | GE_8_4*              | *               | N/A                        | 0.7743               |
 | GE_8_4_ANALYSIS_B    | 31/08/20        | 0.8072**                   | 0.7666               |
+| GE_8_4_ANALYSIS_C_20 | 31/08/20        | 0.83??***                  | 0.7833               |
 
 \*Model was trained on training and validation set.
 
 \*\*From model GE_8_4_ANALYSIS_B onwards, the validation set has changed, it is now 10% of the provided training data (with the other 90% being allocated to training the model), and the number of samples for each class in each subset are better balanced
+
+\*\*\* Accidentally did not save the notebook for this model, but the configuration was, for every class which had less than 20 samples in the training set, oversampled to 20 samples.
