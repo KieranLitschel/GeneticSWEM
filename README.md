@@ -8,6 +8,7 @@
 | GE_8_4*              | *               | N/A                        | 0.7743               |
 | GE_8_4_ANALYSIS_B    | 31/08/20        | 0.8072**                   | 0.7666               |
 | GE_8_4_ANALYSIS_C    | *               | 0.8329                     | 0.7833               |
+| GE_8_5               | 01/09/20        | 0.8534                     | 0.8031               |
 
 \*Model was trained on training and validation set.
 
