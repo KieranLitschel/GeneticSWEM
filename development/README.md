@@ -1,3 +1,5 @@
+In the table below, test top-10 accuracy refers to the accuracy on the non-private test set.
+
 | Model Name           | Submission Date | Validation Top-10 Accuracy | Test Top-10 Accuracy |
 |----------------------|-----------------|----------------------------|----------------------|
 | GE_4_1               | 28/08/20        | 0.55677                    | 0.5021               |
@@ -26,7 +28,27 @@
 | GE_8_20*             | 12/09/20        | N/A                        | 0.8938               |
 | GE_8_21              | 14/09/20        | 0.9288                     | 0.8931               |
 | GE_8_22              | 15/09/20        | 0.9323                     | 0.8954               |
+| GE_8_23              | 17/09/20        | 0.9326                     | 0.8975               |
+| GE_8_24              | *               | 0.9380                     | 0.8965               |
+| GE_8_25              | 18/09/20        | 0.9402                     | 0.9003               |
+| GE_8_26              | *               | 0.9412                     | 0.9009               |
+| GE_8_27              | 19/09/20        | 0.9418                     | 0.9052               |
+| GE_8_28              | 20/09/20        | 0.9422                     | 0.9129               |
+| GE_8_29              | *               | 0.9422                     | 0.9132               |
+| GE_8_30              | 22/09/20        | 0.9480                     | 0.9157               |
+| GE_8_31              | *               | 0.9489                     | 0.9144               |
+| GE_8_32              | 25/09/20        | 0.9513                     | 0.9168               |
+| GE_8_33              | 04/10/20        | 0.9716***                  | 0.9179               |
+| GE_8_34              | *               | 0.9731                     | 0.9187               |
+| GE_8_35              | 05/10/20        | 0.9744                     | 0.9199               |
+| GEA_INNOVATION_1     | 14/10/20        | 0.9716                     | 0.9182               |
+| GEA_INNOVATION_2     | 17/10/20        | 0.9711                     | 0.9140               |
+| GEA_INNOVATION_3     | 18/10/20        | 0.9707                     | 0.9159               |
+| GEA_INNOVATION_4     | *               | 0.9716                     | 0.9190               |
+| GE_8_36              | 19/10/20        | 0.9718                     | 0.9203               |
 
 \*Model was trained on training and validation set.
 
 \*\*From model GE_8_4_ANALYSIS_B onwards, the validation set has changed, it is now 10% of the provided training data (with the other 90% being allocated to training the model), and the number of samples for each class in each subset are better balanced
+
+\*\*\*From model GE_8_33 onwards we exclude classes with less than 40 examples from the validation set.
