@@ -2,10 +2,15 @@
 
 During the competition I made a submission every time I made a significant improvement to my model. This directory
 contains the notebooks for each of these submissions. It serves as a record of some approaches I explored in the 
-competition, and how my model developed overtime.
+competition, and how my model developed overtime. Please note that all links in these notebooks to download data have
+been deactivated. 
 
 The naming scheme refers to GE_\<size of ngram\>_\<iteration number for this size\>, with GE being an abbreviation of 
 Genetic Engineering. From notebook GE_8_16 onwards we keep with this naming scheme, but we are no longer using ngrams.
+
+GE_8_36 is equivalent to my final submission for the Innovation Track, but before submission I created a copy of this
+notebook, cleaned up the code, and separated it into the [Train](https://github.com/KieranLitschel/GeneticSWEM/blob/master/Train.ipynb) 
+and [Infer](https://github.com/KieranLitschel/GeneticSWEM/blob/master/Infer.ipynb) notebooks.
   
 # Performance
 
