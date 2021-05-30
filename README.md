@@ -36,6 +36,8 @@ the model.
 
 [Read the full report here.](https://github.com/KieranLitschel/GeneticSWEM/blob/master/Report.pdf)
 
+![alt text](https://raw.githubusercontent.com/KieranLitschel/GeneticSWEM/master/model_pipeline.PNG "Model pipeline for an example sample")
+
 #### BibTeX
 
 If you would like to cite this report, please cite it as:
