@@ -62,7 +62,7 @@ If you are curious about how the development of my model progressed through the 
 ### Submission
 
 The [Train](https://github.com/KieranLitschel/GeneticSWEM/blob/master/Train.ipynb), [Infer](https://github.com/KieranLitschel/GeneticSWEM/blob/master/Infer.ipynb), 
-and [Build vectors and metadata for TensorFlow]((https://github.com/KieranLitschel/GeneticSWEM/blob/master/Build%20vectors%20and%20metadata%20for%20TensorFlow.ipynb)) 
+and [Build vectors and metadata for TensorFlow]((https://github.com/KieranLitschel/GeneticSWEM/blob/master/Build%20vectors%20and%20metadata%20for%20TensorFlow%20Projector.ipynb)) 
 notebooks were my final submission for the Innovation Track. The Train notebook loads and pre-processes the training data, 
 and uses it to train the model. The Infer notebook loads and pre-processes the test data, and makes predictions for each
 sample using the model trained in the Train notebook. The Build vectors and metadata for TensorFlow notebook is used to 
