@@ -82,7 +82,7 @@ of Python and the required packages, but we have not tested this.
 ### XSWEM Package
 
 I am currently working on an open source implementation of SWEM-max (max-pooling SWEM) in TensorFlow, with an emphasis on the 
-interpretability techniques discussed in the paper. I have had some ideas of how to make the model even more explainable, 
+interpretability techniques discussed in the paper. I have had some ideas of how to make the model even more interpretable, 
 which I plan to include in the implementation. Development is at an early stage and currently the implementation is not 
 flexible enough to completely replicate the model proposed here, but I plan to improve flexibility in the future to 
 support this. You can check it out [here](https://github.com/KieranLitschel/XSWEM).
