@@ -6,13 +6,14 @@ This repository contains my submission for the [Genetic Engineering Attribution 
 The goal of the challenge was to create an algorithm that identified the most likely lab-of-origin for genetically 
 engineered DNA. The challenge is described in more detail [here](https://www.drivendata.org/competitions/63/genetic-engineering-attribution/page/165/),
 and the competition dataset is analysed [here](https://www.drivendata.co/blog/genetic-attribution-benchmark/).
-
-My approach was judged as "particularly promising" and "quite distinctive from the other submissions", and ranked 5th in 
-[the Innovation Track](https://www.drivendata.org/competitions/63/genetic-engineering-attribution/page/221/) 
-(judged on the real-world merits of the model). Also ranked [21 out of 1211 participants](https://www.drivendata.org/competitions/63/genetic-engineering-attribution/leaderboard/) 
-in the Prediction Track (judged on model top-10 accuracy). My best model in the Prediction track achieved 90.51% 
-top-10 accuracy on the private test set, and my model submitted for the Innovation Track achieved 90.24% top-10 accuracy
 on the private test set.
+
+Approached the challenge using natural language processing. Byte-pair encoded genetic sequences. Implemented a variant 
+of SWEM-max in TensorFlow to classify the encoded sequences. SWEM-max was particularly well suited to the task given 
+its strong performance on small datasets and long texts. The approach proposed in my paper was judged as "particularly 
+promising" and "quite distinctive from the other submissions", and ranked [5th in the Innovation Track](https://www.drivendata.org/competitions/63/genetic-engineering-attribution/page/221/) 
+(judged on the real-world merits of the model). Also ranked [21st in the Prediction Track](https://www.drivendata.org/competitions/63/genetic-engineering-attribution/leaderboard/) 
+(judged on model top-10 accuracy).
 
 ## Abstract
 
