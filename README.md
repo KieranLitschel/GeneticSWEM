@@ -6,7 +6,6 @@ This repository contains my submission for the [Genetic Engineering Attribution 
 The goal of the challenge was to create an algorithm that identified the most likely lab-of-origin for genetically 
 engineered DNA. The challenge is described in more detail [here](https://www.drivendata.org/competitions/63/genetic-engineering-attribution/page/165/),
 and the competition dataset is analysed [here](https://www.drivendata.co/blog/genetic-attribution-benchmark/).
-on the private test set.
 
 Approached the challenge using natural language processing. Byte-pair encoded genetic sequences. Implemented a variant 
 of SWEM-max in TensorFlow to classify the encoded sequences. SWEM-max was particularly well suited to the task given 
